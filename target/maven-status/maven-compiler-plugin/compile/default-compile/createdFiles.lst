@@ -1,0 +1,11 @@
+exception/CustomException.class
+util/ConstansExceptions.class
+dto/FileDTO.class
+recource/MinioResource.class
+util/ConstansGenerals.class
+util/Utilities.class
+dto/ResponseDTO.class
+dto/AccountMinioDTO.class
+exception/ExceptionInterceptor.class
+service/Minio.class
+util/FileUtil.class

@@ -1,0 +1,7 @@
+quarkus:
+  http:
+    cors:
+      methods: GET,POST,PUT,HEAD,OPTIONS
+    port: 8089
+    limits:
+      max-body-size: 15000K

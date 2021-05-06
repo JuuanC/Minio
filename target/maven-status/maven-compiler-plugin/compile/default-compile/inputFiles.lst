@@ -1,0 +1,12 @@
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/recource/MinioResource.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/util/Utilities.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/dto/AccountMinioDTO.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/util/ConstansExceptions.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/dto/ResponseDTO.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/exception/ExceptionInterceptor.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/exception/CustomException.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/util/ConstansGenerals.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/service/Minio.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/dto/FileDTO.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/util/FileUtil.java
+/home/juancd/Documentos/UTIL/001-util-minio/src/main/java/dto/RequestMultiPartDTO.java
