@@ -4,6 +4,7 @@ import io.minio.MinioClient;
 
 public class AccountMinioDTO {
     private String host;
+    private int port;
     private String bucket;
     private String user;
     private String password;
@@ -13,11 +14,20 @@ public class AccountMinioDTO {
     public AccountMinioDTO() {
     }
 
-    public AccountMinioDTO(String host, String bucket, String user, String password) {
+    public AccountMinioDTO(String host, int port, String bucket, String user, String password) {
         this.host = host;
+        this.port = port;
         this.bucket = bucket;
         this.user = user;
         this.password = password;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
     }
 
     public String getHost() {

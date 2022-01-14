@@ -49,7 +49,7 @@ public class Minio {
         try {
             //CREO EL OBJETO PARA ACCEDER A MINIO
             minioClient = MinioClient.builder()
-                    .endpoint(accountMinioDTO.getHost())
+                    .endpoint(accountMinioDTO.getHost(), accountMinioDTO.getPort(), false)
                     .credentials(accountMinioDTO.getUser(), accountMinioDTO.getPassword()).build();
             //COMPRUEBO QUE SE PUEDE REALIZAR LA CONEXION
             if (minioClient.bucketExists(BucketExistsArgs.builder().bucket(accountMinioDTO.getBucket()).build())) {
